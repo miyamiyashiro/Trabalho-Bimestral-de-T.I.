@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo</title>
+    <style>
+       
+        body {
+            font-family: 'Times New Roman', Times, serif, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+       
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        h1 {
+            margin: 0;
+        }
+        img {
+            border-radius: 20%;
+            width: 100px; 
+            height: 100px; 
+        }
+        p {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="luana.png" alt="Sua Foto">
+        <div>
+        <h1 id="meuCabecalho" style="opacity: 0;">Luana Miyashiro Salles de Oliveira</h1>
+        <p>Endereço: Rua David Eid, N° 973, São Paulo (SP)</p>
+        <p>Telefone: (11) 97710-7525</p>
+        <p>Email: luakawaii13@gmail.com</p>
+    </div>
+    </header>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        gsap.to("#meuCabecalho", { opacity: 1, duration: 1, delay: 0.5 });
+    </script>
+    <section id="formacao">
+        <h2>Formação Acadêmica</h2>
+        <h3>T.I. - Senac</h3>
+        <p>Janeiro de 2021 - Cursando</p>
+    </section>
+
+    <section id="experiencia">
+        <h2>Experiência Profissional</h2>
+        <h3>Concluindo 3° ano do ensino médio técnino no Senac</h3>
+        </section>
+
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>Alto comprometimento</li>
+            <li>Foco em resultados</li>
+            <li>Liderança</li>
+            <li>Autoconhecimento</li>
+            <li>Pensamento Crítico</li>
+            <li>Analista</li>
+            <li>Resolução em problemas</li>
+            <li>Versatilidade</li>
+            <li>Inglês avançado</li>
+            <li>Japonês iniciante</li>
+            <li>Espanhol básico</li>
+           
+        </ul>
+    </section>
+
+    <section id="interesses">
+        <h2>Interesses</h2>
+        <ul>
+            <li>Escrita</li>
+            <li>Muay Thai</li>
+            <li>Idiomas</li>
+            <li>Cinema</li>
+            <li>Música</li>
+            <li>Literatura</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Luana Miyashiro Salles de Oliveira - © 2023</p>
+    </footer>
+</body>
+</html>
